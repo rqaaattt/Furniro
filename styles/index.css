@@ -1,3 +1,286 @@
-header div, header nav {
-  display: inline-flex;
+@import "../fonts/Montserrat/Montserrat.css";
+@import "../fonts/Poppins/Poppins.css";
+body {
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+body, html {
+  width: 1440px;
+}
+
+header {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 16px;
+  background-color: white;
+  height: 100px;
+  width: 1440px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header div {
+  font-family: "Montserrat";
+  font-size: 34px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.4);
+}
+header div span {
+  margin-left: 4.5px;
+}
+header nav a {
+  text-decoration: none;
+  color: #000;
+}
+header #text-box-links {
+  margin-left: 228.5px;
+}
+header #text-box-links a {
+  margin: auto 37.5px;
+}
+header #img-box-links {
+  margin-left: 97.5px;
+}
+header #img-box-links a {
+  margin: auto 25px;
+}
+
+#info-about-page {
+  background: url(../images/background.png);
+  background-color: white;
+  width: 1440px;
+  height: 316px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+#info-about-page span {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 48px;
+}
+#info-about-page p {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 16px;
+}
+#info-about-page a {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 16px;
+  text-decoration: none;
+  color: #000;
+}
+
+#settings-of-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #F9F1E7;
+  width: 1440px;
+  height: 100px;
+}
+#settings-of-page #first-of-SOP {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+}
+#settings-of-page #first-of-SOP p {
+  margin-left: 15px;
+}
+#settings-of-page #first-of-SOP .on {
+  margin: auto 12.5px;
+}
+#settings-of-page #first-of-SOP .need {
+  margin-right: 31.5px;
+}
+#settings-of-page #second-of-SOP p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  border-left: #9F9F9F 2px solid;
+  padding-left: 34px;
+  margin-right: 348px;
+}
+#settings-of-page #show, #settings-of-page #short-by {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#settings-of-page #show form input, #settings-of-page #short-by form input {
+  border: none;
+  background-color: #fff;
+  overflow: hidden;
+  margin-left: 17px;
+}
+#settings-of-page #show ::-moz-placeholder, #settings-of-page #short-by ::-moz-placeholder {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  text-align: center;
+  vertical-align: super;
+  font-style: normal;
+  font-size: 20px;
+  color: #9F9F9F;
+}
+#settings-of-page #show ::placeholder, #settings-of-page #short-by ::placeholder {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  text-align: center;
+  vertical-align: super;
+  font-style: normal;
+  font-size: 20px;
+  color: #9F9F9F;
+}
+#settings-of-page #show {
+  margin-right: 29px;
+}
+#settings-of-page #show form input {
+  height: 55px;
+  width: 55px;
+  padding: 0;
+}
+#settings-of-page #short-by form input {
+  height: 55px;
+  width: 188px;
+  padding: 0;
+}
+
+section {
+  width: 1440px;
+  height: 2051px;
+  margin-top: 50px;
+  background-color: #fff;
+}
+section article {
+  margin: 17px 99px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 4fr;
+  grid-gap: 32px;
+  justify-content: center;
+}
+section article #box1, section article #box2, section article #box3, section article #box4 {
+  background-color: #F4F5F7;
+}
+section article #box1 img, section article #box2 img, section article #box3 img, section article #box4 img {
+  width: 285px;
+  height: 301px;
+}
+section article #box1 div, section article #box2 div, section article #box3 div, section article #box4 div {
+  height: 100px;
+  margin: 16px 20px 30px 16px;
+}
+section article #box1 div *, section article #box2 div *, section article #box3 div *, section article #box4 div * {
+  margin: 0px;
+  padding: 0px;
+}
+section article #box1 div h1, section article #box2 div h1, section article #box3 div h1, section article #box4 div h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 24px;
+  color: #3A3A3A;
+}
+section article #box1 div p, section article #box2 div p, section article #box3 div p, section article #box4 div p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 16px;
+  color: #898989;
+}
+section article #box1 div .closed, section article #box2 div .closed, section article #box3 div .closed, section article #box4 div .closed {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  color: #B0B0B0;
+  text-decoration: line-through;
+  display: inline;
+  margin-left: 8px !important;
+}
+section article #box1 div h2, section article #box2 div h2, section article #box3 div h2, section article #box4 div h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 20px;
+  color: #3A3A3A;
+  display: inline;
+}
+section article #box1 aside, section article #box2 aside, section article #box3 aside, section article #box4 aside {
+  display: flex;
+  justify-content: flex-end;
+}
+section article #box1 aside .tag30, section article #box1 aside .tag50, section article #box1 aside .new, section article #box2 aside .tag30, section article #box2 aside .tag50, section article #box2 aside .new, section article #box3 aside .tag30, section article #box3 aside .tag50, section article #box3 aside .new, section article #box4 aside .tag30, section article #box4 aside .tag50, section article #box4 aside .new {
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 16px;
+  color: #fff;
+  position: absolute;
+  bottom: 240px;
+  margin-right: 20px;
+}
+section article #box1 aside .tag30 p, section article #box1 aside .tag50 p, section article #box1 aside .new p, section article #box2 aside .tag30 p, section article #box2 aside .tag50 p, section article #box2 aside .new p, section article #box3 aside .tag30 p, section article #box3 aside .tag50 p, section article #box3 aside .new p, section article #box4 aside .tag30 p, section article #box4 aside .tag50 p, section article #box4 aside .new p {
+  margin: 0;
+  padding: 0;
+}
+section article #box1 .tag30, section article #box1 .tag50, section article #box2 .tag30, section article #box2 .tag50, section article #box3 .tag30, section article #box3 .tag50, section article #box4 .tag30, section article #box4 .tag50 {
+  height: 48px;
+  width: 48px;
+  background-color: #E97171;
+}
+section article #box1 .new, section article #box2 .new, section article #box3 .new, section article #box4 .new {
+  height: 48px;
+  width: 48px;
+  background-color: #2EC1AC;
+}
+section #pages {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+}
+section #pages a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  height: 60px;
+  width: 60px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  color: #000000;
+  background-color: #F9F1E7;
+  border-radius: 10px;
+}
+section #pages .current-page {
+  background-color: #B88E2F;
+  color: #fff;
 }/*# sourceMappingURL=index.css.map */
