@@ -283,4 +283,36 @@ section #pages a {
 section #pages .current-page {
   background-color: #B88E2F;
   color: #fff;
+}
+
+#about-us {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #FAF3EA;
+  height: 270px;
+  width: 1440px;
+}
+#about-us #box1-about-us, #about-us #box2-about-us, #about-us #box3-about-us, #about-us #box4-about-us {
+  display: flex;
+  margin: 30px;
+}
+#about-us #box1-about-us img, #about-us #box2-about-us img, #about-us #box3-about-us img, #about-us #box4-about-us img {
+  margin-right: 10px;
+}
+#about-us #box1-about-us h1, #about-us #box2-about-us h1, #about-us #box3-about-us h1, #about-us #box4-about-us h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 25px;
+  margin: 0;
+  padding: 0;
+}
+#about-us #box1-about-us p, #about-us #box2-about-us p, #about-us #box3-about-us p, #about-us #box4-about-us p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
 }/*# sourceMappingURL=index.css.map */

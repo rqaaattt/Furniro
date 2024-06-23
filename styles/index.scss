@@ -293,3 +293,36 @@ section{
         }
     }
 }
+
+#about-us{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FAF3EA;
+    height: 270px;
+    width: 1440px;
+    #box1-about-us, #box2-about-us, #box3-about-us, #box4-about-us{
+        display: flex;
+        margin: 30px;
+        img{
+            margin-right: 10px;
+        }
+        h1{
+            font-family: "Poppins", sans-serif;
+            font-weight: 600;
+            font-style: normal;
+            font-size: 25px;
+            margin: 0;
+            padding: 0;
+
+        }
+        p{
+            font-family: "Poppins", sans-serif;
+            font-weight: 500;
+            font-style: normal;
+            font-size: 20px;
+            margin: 0;
+            padding: 0;
+        }
+    }
+}
