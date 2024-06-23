@@ -9,7 +9,7 @@ body {
     width: 608px;
     height: 1714px;
     top: 479px;
-    left: 100px;
+    left: 260px;
 }
 
 .text1 {
@@ -83,6 +83,12 @@ body {
     height: 75px;
     top: 75px;
     border-radius: 10px;
+    border: 2px solid black;
+}
+
+.option {
+    text-align: center;
+    font-size: 20px;
 }
 
 .SA     {
@@ -131,6 +137,7 @@ body {
     height: 75px;
     top: 75px;
     border-radius: 10px;
+    border: 2px solid black;
 }
 
 .ZC     {
@@ -196,12 +203,16 @@ body {
     border-radius: 10px;
 }
 
+.Len {
+    
+}
+
 .container2 {
     position: absolute;
     width: 608px;
     height: 789px;
     top: 479px;
-    left: 734px;
+    left: 984px;
 }
 
 .text2 {
@@ -209,7 +220,7 @@ body {
     width: 94px;
     height: 36px;
     top: 77px;
-    left: 38px;
+    left: 38px; 
 }
 
 .text3 {
@@ -218,6 +229,7 @@ body {
     height: 24px;
     top: 137px;
     left: 38px;
+    color: #9F9F9F;   
 }
 
 .text4 {
@@ -266,7 +278,8 @@ body {
     width: 200px;
     height: 36px;
     top: 229px;
-    left: 468px;
+    left: 390px;
+    color: #B88E2F;
 }
 
 .line {
@@ -279,24 +292,75 @@ body {
 
 .choose1 {
     position: absolute;
-    width: 160px;
-    height: 24px;
-    top: 315px;
+    width: 20px;
+    height: 20px;
+    top: 356px;
     left: 38px;
+}
+
+.dot1 {
+    position: absolute;
+    width: 300px;
+    height: 24px;
+    top: 336px;
+    left: 95px;
+}
+
+.text10 {
+    position: absolute;
+    top: 390px;
+    left: 38px;
+    color: #9F9F9F;
 }
 
 .choose2 {
     position: absolute;
-    width: 160px;
-    height: 24px;
-    top: 350px;
+    width: 20px;
+    height: 20px;
+    top: 510px;
     left: 38px;
+}
+
+.dot2 {
+    position: absolute;
+    width: 300px;
+    height: 24px;
+    top: 490px;
+    left: 95px;
 }
 
 .choose3 {
     position: absolute;
-    width: 160px;
-    height: 24px;
-    top: 400px;
+    width: 20px;
+    height: 20px;
+    top: 575px;
     left: 38px;
+}
+
+.dot3 {
+    position: absolute;
+    width: 300px;
+    height: 24px;
+    top: 555px;
+    left: 95px;
+}
+
+.text11 {
+    position: absolute;
+    top: 615px;
+    left: 38px;
+}
+
+.button {
+    position: absolute;
+    width: 318px;
+    height: 64px;
+    top: 810px;
+    left: 150px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.order {
+    text-align: center;
 }
