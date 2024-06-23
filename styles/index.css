@@ -181,10 +181,12 @@ section article {
   justify-content: center;
 }
 section article #box1, section article #box2, section article #box3, section article #box4 {
+  height: 446px;
   background-color: #F4F5F7;
+  z-index: 0;
 }
 section article #box1 img, section article #box2 img, section article #box3 img, section article #box4 img {
-  width: 285px;
+  width: 287px;
   height: 301px;
 }
 section article #box1 div, section article #box2 div, section article #box3 div, section article #box4 div {
@@ -242,8 +244,6 @@ section article #box1 aside .tag30, section article #box1 aside .tag50, section 
   font-size: 16px;
   color: #fff;
   position: absolute;
-  bottom: 240px;
-  margin-right: 20px;
 }
 section article #box1 aside .tag30 p, section article #box1 aside .tag50 p, section article #box1 aside .new p, section article #box2 aside .tag30 p, section article #box2 aside .tag50 p, section article #box2 aside .new p, section article #box3 aside .tag30 p, section article #box3 aside .tag50 p, section article #box3 aside .new p, section article #box4 aside .tag30 p, section article #box4 aside .tag50 p, section article #box4 aside .new p {
   margin: 0;
@@ -315,4 +315,107 @@ section #pages .current-page {
   font-size: 20px;
   margin: 0;
   padding: 0;
+}
+
+section article .hover {
+  width: 285px;
+  height: 446px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  z-index: 1;
+  transition: opacity 0.5s ease 0s;
+  background-color: rgba(0, 0, 0, 0.6);
+  opacity: 0;
+}
+section article .hover span {
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 24px;
+  width: 202px;
+  height: 48px;
+  cursor: pointer;
+}
+section article .hover span a {
+  color: #B88E2F;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 16px;
+  cursor: pointer;
+}
+section article .hover div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section article .hover div a {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 16px;
+  color: #fff;
+  margin-left: 5px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+section article .hover:hover {
+  opacity: 1;
+}
+section article section article .hover1 {
+  width: 285px;
+  height: 446px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  z-index: 1;
+  transition: opacity 0.5s ease 0s;
+  background-color: rgba(0, 0, 0, 0.6);
+  opacity: 0;
+}
+section article section article .hover1 span {
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 24px;
+  width: 202px;
+  height: 48px;
+  cursor: pointer;
+}
+section article section article .hover1 span a {
+  color: #B88E2F;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 16px;
+  cursor: pointer;
+}
+section article section article .hover1 div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section article section article .hover1 div a {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 16px;
+  color: #fff;
+  margin-left: 5px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+section article .hover:hover {
+  opacity: 1;
 }/*# sourceMappingURL=index.css.map */
